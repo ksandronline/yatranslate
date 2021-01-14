@@ -1,0 +1,27 @@
+# After registering on the cloud service.yandex.com go to the page https://cloud.yandex.com/docs/translate/quickstart and get an IAM token.
+#
+yatranslate.oauth_token (Yandex translate oauth token) string
+
+# For more information about folder_id see https://cloud.yandex.com/docs/resource-manager/operations/folder/get-id
+#
+yatranslate.folder_id (Select "folder id") string
+
+# Curl timeout to request in ms
+#
+yatranslate.timeout (Translate timeout in ms) int 1000
+
+# Begin translate service when server start
+#
+yatranslate.startup_on_start_server (Startup translate work after server start) bool true
+
+# Begin translate service when player with nick login to server
+#
+yatranslate.startup_after_player_login (Startup translate after player nick login) string
+
+# The service is available to everyone or only with a privilege "translate"
+#
+yatranslate.need_special_priv (Need special privs to translate) bool false
+
+# Now support 88 lang. You can use inly some lang. For help see readme.help
+#
+yatranslate.use_all_support_lang (Use all support lang ) bool true
