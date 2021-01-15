@@ -1,4 +1,7 @@
 # yatranslate
+license:
+CC0
+This license can be used for both code and art, and allows anyone to do what they want with your work. This means they can modify, redistribute, sell, or leave-out attribution.
 
 Adds commands to translate chat messages into the recipient's language.
 For the module to work, you need to create an account on the service cloud.yandex.com
